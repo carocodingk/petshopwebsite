@@ -1,0 +1,25 @@
+#aboutUs {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.aboutUsTitle {
+  margin-top: 30px;
+  
+  font-size: 3em;
+  text-align: center;
+  color: #5c4e4e;
+}
+.aboutUsImg {
+  height: 400px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUsSection {
+  padding-top: 100px;
+
+}
+

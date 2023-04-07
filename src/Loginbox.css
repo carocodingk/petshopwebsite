@@ -1,0 +1,60 @@
+#loginOuterBox {
+  max-width: 450px;
+  min-height: 480px;
+
+  margin: 120px auto 0;
+  padding: 50px;
+  border: 2px solid #f6f8fa;
+  border-radius: 10px;
+}
+
+#loginInnerBox {
+  display: grid;
+  align-content: space-around;
+
+  min-height: 350px;
+}
+
+.wideElem {
+  width: 100%;
+}
+
+.loginFont {
+  font-size: 1em;
+}
+
+.loginData {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8px 0;
+}
+
+.loginDataLabel {
+  font-weight: bold;
+}
+
+#loginAlternative {
+  padding-left: 10px;
+
+  color: #BE4D62;
+}
+
+.inputElem {
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+#loginButton {
+  padding: 18px;
+  border: none;
+  border-radius: 15px;
+
+  background-color: #cf7c8b;
+  color: white;
+}
+
+#loginButton:hover {
+  background-color:  #BE4D62;
+}

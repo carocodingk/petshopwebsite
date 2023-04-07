@@ -1,0 +1,41 @@
+#blogWall {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blogWallPost {
+    max-width: 350px;
+    min-height: 350px;
+
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.blogWallPost:hover{
+    transform: scale(1.02);
+}
+
+.maxWidth {
+    max-width: 320px;
+}
+
+.blogWallImage {
+    height: 240px;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blogWallData {
+    padding: 0 5px;
+}
+
+#blogWallTitle {
+    font-size: 1.5em;
+    margin: 0.3em 0;
+}
+
+#blogWallAuthor {
+    margin: 0.7em 0 0;
+}

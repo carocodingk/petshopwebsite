@@ -1,0 +1,79 @@
+.rowContainer {
+  display: flex;
+  align-items: center;
+}
+
+#navBar {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  justify-content: space-around;
+
+  width: 100vw;
+  padding: 15px 20px 10px;
+  border-bottom: 2px solid #f6f8fa;
+
+  background-color: white;
+}
+
+button:hover {
+  color: #BE4D62;
+}
+
+.navBarButton {
+  padding: 15px;
+  border-radius: 8px;
+
+  background-color: white;
+}
+
+.navBarButton:hover,
+#selectedButton {
+  background-color: #f6f8fa;
+}
+
+.navBarButton,
+#searchBarInput {
+  font-family: 'Comic Neue';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#upArrow {
+  transform: rotate(180deg);
+}
+
+#noArrowButton {
+  min-height: 58px;
+}
+
+#searchIcon ,
+#searchBar {
+  padding: 5px;
+  border-radius: 8px;
+}
+
+#searchBarInput {
+  min-width: 280px;
+  min-height: 30px;
+}
+
+.greyElem {
+  background-color: #f6f8fa;
+}
+
+.noBorder {
+  border: none;
+}
+
+.material-icons {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#searchBarInput {
+  font-size: 16px;
+}

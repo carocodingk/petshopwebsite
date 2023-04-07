@@ -1,0 +1,9 @@
+[
+  {
+    "actionTitle": "Sign up",
+    "question": "Already have an account?",
+    "alternative": "Sign in",
+    "alternativeComponent": "/Signin",
+    "buttonName": "Sign up"
+  }
+]

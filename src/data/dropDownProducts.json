@@ -1,0 +1,27 @@
+[
+  {
+    "option": "Dog Supplies",
+    "ref": "/Productcatalog/Dogs",
+    "type": "Dogs"
+  },
+  {
+    "option": "Cat Supplies",
+    "ref": "/Productcatalog/Cats",
+    "type": "Cats"
+  },
+  {
+    "option": "Bird Supplies",
+    "ref": "/Productcatalog/Birds",
+    "type": "Birds"
+  },
+  {
+    "option": "Fish Supplies",
+    "ref": "/Productcatalog/Fish",
+    "type": "Fish"
+  },
+  {
+    "option": "View All",
+    "ref": "/Productcatalog/All",
+    "type": "All"
+  }
+]

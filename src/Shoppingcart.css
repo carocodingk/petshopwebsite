@@ -1,0 +1,119 @@
+.shoppingFlex {
+  display: flex;
+}
+
+.shoppingCenter {
+  justify-content: center;
+}
+
+.shoppingSides {
+  justify-content: space-between;
+}
+
+.shoppingImg {
+  width: 15vw;
+}
+
+.shoppingContent {
+  width: 35vw;
+  padding: 0 20px;
+}
+
+#shoppingCart {
+  position: fixed;
+  top: 100px;
+
+  min-width: 90vw;
+  max-height: 80vh;
+
+  overflow: scroll;
+}
+
+#shoppingCartTitle {
+  margin: 0 0 20px;
+  padding: 20px 0;
+  
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.shoppingItem {
+  min-width: 50vw;
+  margin-bottom: 1.2em;
+  padding: 0 0 1.2em;
+}
+
+#subtotalChart {
+  min-width: 20vw;
+  max-height: 55vh;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+  background-color: #f6f8fa;
+} 
+
+.shoppingTxtLarge {
+  margin: 0;
+  padding: 1em 0;
+
+  font-size: 1.2em;
+}
+
+.shoppingTxtMedium {
+  font-size: 1.1em;
+}
+
+.txtBold {
+  font-weight: bolder;
+}
+
+.shoppingTxtContainer {
+  padding-top: 0.2em;
+}
+
+.shoppingButton {
+  border: none;
+
+  background-color: #cf7c8b;
+ 
+  color: white;
+}
+
+#productQty {
+  min-width: 30px;
+
+  text-align: center;
+}
+
+.shoppingBottomBorder {
+  border-bottom: 1px solid #d5dfe8;
+}
+
+.shoppingButton:hover {
+  background-color:  #BE4D62;
+
+  color: white;
+}
+
+#checkoutButton {
+  min-width: 30vw;
+  padding: 15px 0;
+  margin: 0.7em 0 0; 
+
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.rightPannel {
+  min-width: 120px;
+}
+
+.removeButton {
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  background-color: white;
+  
+  font-size: 1em;
+}

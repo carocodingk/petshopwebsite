@@ -1,0 +1,128 @@
+[
+  {
+    "productID": 0,
+    "productAnimal": "Dogs",
+    "productName": "Nutritious Dry Food for Dogs",
+    "productImg": "./productsImages/dogFood.jpg",
+    "productPrice": 10.50
+  },
+  {
+    "productID": 1,
+    "productAnimal": "Cats",
+    "productName": "Nutritious Dry Food for Cats",
+    "productImg": "./productsImages/catFood.jpg",
+    "productPrice": 9.50
+  },
+  {
+    "productID": 2,
+    "productAnimal": "Birds",
+    "productName": "Nutritious Dry Food for Birds",
+    "productImg": "./productsImages/birdFood.jpg",
+    "productPrice": 9.35
+  },
+  {
+    "productID": 3,
+    "productAnimal": "Fish",
+    "productName": "Nutritious Dry Food for Fish",
+    "productImg": "./productsImages/fishFood.jpg",
+    "productPrice": 11.25
+  },
+  {
+    "productID": 4,
+    "productAnimal": "Dogs",
+    "productName": "Dog Vitamin Supplement",
+    "productImg": "./productsImages/dogVitamin.jpg",
+    "productPrice": 9.50
+  },
+  {
+    "productID": 5,
+    "productAnimal": "Cats",
+    "productName": "Cat Vitamin Supplement",
+    "productImg": "./productsImages/catVitamin.jpg",
+    "productPrice": 9.50
+  },
+  {
+    "productID": 6,
+    "productAnimal": "Birds",
+    "productName": "Bird Vitamin Supplement",
+    "productImg": "./productsImages/birdVitamin.jpg",
+    "productPrice": 9.50
+  },
+  {
+    "productID": 7,
+    "productAnimal": "Fish",
+    "productName": "Fish Vitamin Supplement",
+    "productImg": "./productsImages/fishVitamin.jpg",
+    "productPrice": 9.50
+  },
+  {
+    "productID": 8,
+    "productAnimal": "Dogs",
+    "productName": "Care Package for Dogs",
+    "productImg": "./productsImages/dogBox.jpg",
+    "productPrice": 11.25
+  },
+  {
+    "productID": 9,
+    "productAnimal": "Cats",
+    "productName": "Care Package for Cats",
+    "productImg": "./productsImages/catBox.jpg",
+    "productPrice": 11.25
+  },
+  {
+    "productID": 10,
+    "productAnimal": "Birds",
+    "productName": "Care Package for Birds",
+    "productImg": "./productsImages/birdBox.jpg",
+    "productPrice": 11.25
+  },
+  {
+    "productID": 11,
+    "productAnimal": "Fish",
+    "productName": "Care Package for Fish",
+    "productImg": "./productsImages/fishBox.jpg",
+    "productPrice": 11.25
+  },
+  {
+    "productID": 12,
+    "productAnimal": "Dogs",
+    "productName": "Dog Cotton T-Shirt",
+    "productImg": "./productsImages/dogShirt.jpg",
+    "productPrice": 19.00
+  },
+  {
+    "productID": 13,
+    "productAnimal": "Cats",
+    "productName": "Cat Cotton T-Shirt",
+    "productImg": "./productsImages/catShirt.jpg",
+    "productPrice": 19.00
+  },
+  {
+    "productID": 14,
+    "productAnimal": "Birds",
+    "productName": "Bird Cotton T-Shirt",
+    "productImg": "./productsImages/birdShirt.jpg",
+    "productPrice": 19.00
+  },
+  {
+    "productID": 15,
+    "productAnimal": "Fish",
+    "productName": "Fish Cotton T-Shirt",
+    "productImg": "./productsImages/fishShirt.jpg",
+    "productPrice": 19.00
+  },
+  {
+    "productID": 16,
+    "productAnimal": "Dogs",
+    "productName": "Dog Bed 100% Organic",
+    "productImg": "./productsImages/dogBed.jpg",
+    "productPrice": 35.00
+  },
+  {
+    "productID": 17,
+    "productAnimal": "Cats",
+    "productName": "Cat Bed 100% Organic",
+    "productImg": "./productsImages/catBed.jpg",
+    "productPrice": 35.00
+  }
+]

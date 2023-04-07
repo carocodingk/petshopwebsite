@@ -1,0 +1,47 @@
+#keepInTouch {
+  width: 70vw;
+  margin: 120px auto;
+  /* border: 1px solid gray; */
+  justify-content: center;
+}
+
+.rowContainer {
+  display: flex;
+}
+
+#leftComponent {
+  flex-direction: column;
+  width: 30vw;
+  margin: 0 auto;
+}
+
+#rightComponent {
+  border: 2px solid #f6f8fa;
+  border-radius: 8px;
+  padding: 1em;
+ 
+}
+
+.rightComponentField {
+  padding: 5px 0;
+}
+.contactInput {
+  min-width: 320px; 
+}
+
+.contactTxt {
+  font-size: 1em;
+}
+
+#contactButton {
+  border: none;
+  padding: 5px;
+}
+
+.bigTxt {
+  font-size: 1.2em;
+}
+
+.contactIcon {
+  padding: 10px;
+}
