@@ -46,7 +46,7 @@ function Shoppingcart(props){
         <p className='shoppingTxtLarge txtBold'>Order total</p>
         <p className='shoppingTxtLarge txtBold'>{total}</p>
       </div>
-      <Link to="/Signin">
+      <Link to="/petshopwebsite/Signin">
       <button id='checkoutButton' className='shoppingButton'>CHECKOUT</button>
       </Link>
     </div>

@@ -29,8 +29,8 @@ function App() {
     <Router>
       <Navigation mainLogo={mainLogo} />
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/Productcatalog/:productAnimal' element= {
+        <Route exact path='/petshopwebsite' element={<Home />} />
+        <Route path='/petshopwebsite/Productcatalog/:productAnimal' element= {
           <Productcatalog 
             shoppingList={shoppingList}
             setShoppingList={setShoppingList} 
@@ -38,11 +38,11 @@ function App() {
             setCheckOut={setCheckOut}
           />} 
         />
-        <Route path='/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
-        <Route path='/Keepintouch' element={<Keepintouch />} />
-        <Route path='/Signin' element={<Signin />} />
-        <Route path='/Signup' element={<Signup />} />
-        <Route path='/Shoppingcart' element={
+        <Route path='/petshopwebsite/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
+        <Route path='/petshopwebsite/Keepintouch' element={<Keepintouch />} />
+        <Route path='/petshopwebsite/Signin' element={<Signin />} />
+        <Route path='/petshopwebsite/Signup' element={<Signup />} />
+        <Route path='/petshopwebsite/Shoppingcart' element={
           <Shoppingcart 
             shoppingList={shoppingList}
             setShoppingList={setShoppingList}
@@ -52,7 +52,7 @@ function App() {
             extraFee={0.08875}
           />} 
         />
-        <Route path='/Blog/:postID' element={<Blogpreview />} />
+        <Route path='/petshopwebsite/Blog/:postID' element={<Blogpreview />} />
       </Routes>   
     </Router>
   );

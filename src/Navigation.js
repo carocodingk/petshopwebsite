@@ -45,7 +45,7 @@ class Navigation extends React.Component{
 		return (
 			<div>
 				<nav id='navBar' className='rowContainer'>
-					<Link to="/">
+					<Link to="/petshopwebsite">
 						<img src={mainLogo} alt={"company logo"} />
 					</Link>
 					<div className='rowContainer'>
@@ -74,12 +74,12 @@ class Navigation extends React.Component{
 						<button id='searchIcon' className='greyElem  noBorder'><span class="material-icons">search</span></button>
 					</form>
 					<div className='rowContainer'>
-						<Link to="/Signin">
+						<Link to="/petshopwebsite/Signin">
 							<button  className='navBarButton rowContainer noBorder'>
 								<span className="material-icons">pets</span> &nbsp; SIGN IN 
 							</button>
 						</Link>
-						<Link to="/Shoppingcart">
+						<Link to="/petshopwebsite/Shoppingcart">
 							<button className='navBarButton noBorder'>
 								<span className="material-icons">shopping_cart</span>
 							</button>

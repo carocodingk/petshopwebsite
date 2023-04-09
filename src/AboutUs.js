@@ -7,20 +7,16 @@ function AboutUs(props){
     return(
       
       <div id="aboutUs" >
-        {/* <HashLink to="/ourMission"> */}
         <div id="ourMission" className="aboutUsSection">
           <p className="aboutUsTitle">Our Mission</p>
           <img className="aboutUsImg" src={text.ourMissionImg} alt={text.ourMissionImgAlt} />
           <Paragraphs text={text.ourMissionContent} />
         </div>
-        {/* </HashLink> */}
-        {/* <HashLink to="/ourStory"></HashLink> */}
         <div id="ourStory" className="aboutUsSection">
           <p className="aboutUsTitle">Our Story</p>
           <img className="aboutUsImg" src={text.ourStoryImg} alt={text.ourStoryImgAlt} />
           <Paragraphs text={text.ourStoryContent} />
         </div>
-        {/* <HashLink/> */}
       </div>
     );
   });
