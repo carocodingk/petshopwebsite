@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/petshopwebsite/static/css/main.1a2c3835.css",
-    "main.js": "/petshopwebsite/static/js/main.efbdb5de.js",
+    "main.js": "/petshopwebsite/static/js/main.f91257f7.js",
     "static/js/787.6162abc8.chunk.js": "/petshopwebsite/static/js/787.6162abc8.chunk.js",
     "static/media/fishVitamin.jpg": "/petshopwebsite/static/media/fishVitamin.a94fb3953fb5d744fa01.jpg",
     "static/media/dogVitamin.jpg": "/petshopwebsite/static/media/dogVitamin.db3117b3041f663964ff.jpg",
@@ -27,11 +27,11 @@
     "static/media/minus_white.svg": "/petshopwebsite/static/media/minus_white.1455be32cc43105bb5e0b4341b82f67e.svg",
     "static/media/add_white.svg": "/petshopwebsite/static/media/add_white.fc863d6057e9f7413088dca621fb0d4d.svg",
     "main.1a2c3835.css.map": "/petshopwebsite/static/css/main.1a2c3835.css.map",
-    "main.efbdb5de.js.map": "/petshopwebsite/static/js/main.efbdb5de.js.map",
+    "main.f91257f7.js.map": "/petshopwebsite/static/js/main.f91257f7.js.map",
     "787.6162abc8.chunk.js.map": "/petshopwebsite/static/js/787.6162abc8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a2c3835.css",
-    "static/js/main.efbdb5de.js"
+    "static/js/main.f91257f7.js"
   ]
 }
