@@ -4,6 +4,8 @@ import mainPost from './data/mainPost.json';
 import Modalbackground from './Modalbackground'
 import Postpreview from './Postpreview'
 
+console.log('hello ', mainPost.postImage)
+
 class Mainpost extends React.Component {
   constructor(props){
     super(props);
@@ -29,7 +31,7 @@ class Mainpost extends React.Component {
     return (
       <div>
         <div>
-          <img id="mainImg" src={this.props.mainImg} alt={"Website purpose"} onClick={() => {this.setState({value: true})}} />
+          <img id="mainImg" src={mainPost[0].postImage} alt={"Website purpose"} onClick={() => {this.setState({value: true})}} />
         </div>
         <div>
           {modalBackground}
