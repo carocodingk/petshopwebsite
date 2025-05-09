@@ -32,7 +32,6 @@ a {
 
 .menuSub {
   display: flex;
-  /* justify-content: flex-end; */
 }
 
 .navigationButton {
@@ -41,8 +40,6 @@ a {
   align-items: center;
   height: 3em;
   width: 120px;
-  /* text-align: center; */
-  /* padding: 0.5em; */
   border: none;
   margin: 0 1em;
   background-color: white;
@@ -53,9 +50,14 @@ a {
 
 }
 
-.navigationButton:hover{
+.navigationButton:hover,
+#menuIcon:hover{
   color: #BE4D62;
   background-color: #f6f8fa;
+}
+
+#menuIcon {
+  background-color: white;
 }
 
 #searchBar {
