@@ -6,10 +6,10 @@ import products from './data/products.json';
 function Productcatalog(props){
   const type = props.router.params.productAnimal;
 
-  const showInfo = (products) => {
+  const showInfo = (products, key) => {
     const productPriceString = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(products.productPrice);
     return(
-      <div className="productCard roundBorder">
+      <div className="productCard roundBorder" key={key}>
         <img className="productImg roundBorder" src={require( "" + products.productImg)} alt={products.productName} />
         <div className="productTxtBox">
           <p className="productName productTxt boldTxt">{products.productName}</p>
@@ -57,16 +57,16 @@ function Productcatalog(props){
     );
   };
 
-  const productCatalog = products.map(products => {
+  const productCatalog = products.map((products, key) => {
     if (type === "All"){
       return(
-        showInfo(products)
+        showInfo(products, key)
       );
     }
     else {
       if (products.productAnimal === type){
         return(
-          showInfo(products)
+          showInfo(products, key)
         );
       }
     }
