@@ -10,18 +10,21 @@ class Navigation extends React.Component{
 		this.state = {
 			showMenuProduct: false,
 			showMenuAbout: false,
+			showDropdownMenu: false
 		};
 		this.hideContent = this.hideContent.bind(this);
 	}
 
 	hideContent(menuKey){
-    this.setState({ showMenuProduct: false });
+    	this.setState({ showMenuProduct: false });
 		this.setState({ showMenuAbout: false });
+		this.setState({showDropdownMenu: false})
   	}
 
 	render(){
 		const mainLogo = this.props.mainLogo;
-		let menuProduct, menuAbout, modalProduct, modalAbout;
+		let menuProduct, menuAbout, modalProduct, modalAbout
+		let menuDrop, modalDrop;
 		let productButton = null, aboutButton = null;
 		let arrow1, arrow2;
 
@@ -41,6 +44,12 @@ class Navigation extends React.Component{
 			modalAbout = <Modalbackground hideContent={this.hideContent} />
 			menuAbout = <Dropdownmenu button={2} hideContent={this.hideContent} />;
 		}
+		else if (this.state.showDropdownMenu){
+			aboutButton = 'selectedButton';
+			modalDrop = <Modalbackground hideContent={this.hideContent} />
+			menuDrop = <Dropdownmenu button={3} hideContent={this.hideContent} />;
+			console.log('heeeeee ', this.state.showDropdownMenu)
+		}
 
 		return (
 			<div id='navigation'>
@@ -56,14 +65,22 @@ class Navigation extends React.Component{
 								</button>
 							</a>
 							<div>
-								<button id={productButton} className='navigationButton' onClick={()=> this.setState({showMenuProduct: !this.state.showMenuProduct, showMenuAbout: false})}>
+								<button id={productButton} className='navigationButton' onClick={
+									()=> this.setState({
+										showMenuProduct: !this.state.showMenuProduct, 
+										showMenuAbout: false
+									})}>
 									PRODUCTS <span className="material-icons" id={arrow1}>keyboard_arrow_down</span>
 								</button>
 								{modalProduct}
 								{menuProduct}
 							</div>
 							<div>
-								<button id={aboutButton} className='navigationButton' onClick={()=> this.setState({showMenuAbout:!this.state.showMenuAbout, showMenuProduct: false})}>
+								<button id={aboutButton} className='navigationButton' onClick={
+									()=> this.setState({
+										showMenuAbout:!this.state.showMenuAbout, 
+										showMenuProduct: false
+									})}>
 									ABOUT US <span className="material-icons" id={arrow2}>keyboard_arrow_down</span>
 								</button>
 								{modalAbout}
@@ -88,9 +105,15 @@ class Navigation extends React.Component{
 						</div>
 					</div>
 					<div>
-						<button id='menuIcon' className='singleIcon'onClick={()=>console.log('here')}>
+						<button id='menuIcon' className='singleIcon' onClick={
+									()=> {this.setState({
+										showDropdownMenu:!this.state.showDropdownMenu
+									})
+									console.log('%%%%% ', this.state.showDropdownMenu)}}>
 							<span className="material-icons">menu</span>
 						</button>
+						{modalDrop}
+						{menuDrop}
 					</div>
 				</div>
 			</div>

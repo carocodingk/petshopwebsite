@@ -1,0 +1,26 @@
+[
+    {
+      "option": "ADOPTION",
+      "ref": "https://www.google.com/"
+    },
+    {
+      "option": "PRODUCTS",
+      "ref": "/petshopwebsite/Productcatalog/All"
+    },
+    {
+        "option": "ABOUT US",
+        "ref": "/petshopwebsite/AboutUs/#ourMission"
+    },
+    {
+      "option": "KEEP IN TOUCH",
+      "ref": "/petshopwebsite/Keepintouch"
+    },
+    {
+      "option": "SIGN IN",
+      "ref": "/petshopwebsite/Signin"
+    },
+    {
+      "option": "SIGN UP",
+      "ref": "/petshopwebsite/Signup"
+    }
+  ]

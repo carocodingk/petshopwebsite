@@ -24,3 +24,32 @@
 .dropdown-content a:hover {
   text-decoration: underline;
 }
+
+.dropdown-content-alternate {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  z-index: 1;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: white;
+  width: 100vw;
+  text-align: center;
+}
+
+.dropdown-content-alternate a {
+  display: block;
+  padding: 10px;
+  border-top: 1px solid #f6f8fa;
+  color: black;
+}
+
+.dropdown-content-alternate a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 1331px) {
+  .dropdown-content-alternate {
+    display: none;
+  }
+}
