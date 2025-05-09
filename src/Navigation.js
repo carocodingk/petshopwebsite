@@ -93,12 +93,20 @@ class Navigation extends React.Component{
 						</form>
 						<div className='menuSub'>
 							<Link to="/petshopwebsite/Signin">
-								<button  className='navigationButton'>
+								<button  className='navigationButton' onClick={
+									()=> this.setState({
+										showMenuAbout:false, 
+										showMenuProduct: false
+									})}>
 									<span className="material-icons">pets</span> &nbsp; SIGN IN 
 								</button>
 							</Link>
 							<Link to="/petshopwebsite/Shoppingcart">
-								<button className='navigationButton'>
+								<button className='navigationButton'onClick={
+									()=> this.setState({
+										showMenuAbout:false, 
+										showMenuProduct: false
+									})}>
 									<span className="material-icons">shopping_cart</span>
 								</button>
 							</Link>
