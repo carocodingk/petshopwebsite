@@ -1,79 +1,111 @@
-.rowContainer {
+#navigation {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-}
-
-#navBar {
+  border: 2px solid #f6f8fa;
   position: fixed;
   top: 0;
   z-index: 20;
-  justify-content: space-around;
-
   width: 100vw;
-  padding: 15px 20px 10px;
-  border-bottom: 2px solid #f6f8fa;
-
   background-color: white;
-}
-
-button:hover {
-  color: #BE4D62;
-}
-
-.navBarButton {
-  padding: 15px;
-  border-radius: 8px;
-
-  background-color: white;
-}
-
-.navBarButton:hover,
-#selectedButton {
-  background-color: #f6f8fa;
-}
-
-.navBarButton,
-#searchBarInput {
-  font-family: 'Comic Neue';
-  font-size: 16px;
-  font-weight: bold;
-}
-
-#upArrow {
-  transform: rotate(180deg);
-}
-
-#noArrowButton {
-  min-height: 58px;
-}
-
-#searchIcon ,
-#searchBar {
-  padding: 5px;
-  border-radius: 8px;
-}
-
-#searchBarInput {
-  min-width: 280px;
-  min-height: 30px;
-}
-
-.greyElem {
-  background-color: #f6f8fa;
-}
-
-.noBorder {
-  border: none;
-}
-
-.material-icons {
-  font-size: 25px;
+  padding: 1em;
 }
 
 a {
   text-decoration: none;
 }
 
-#searchBarInput {
+#menuExpanded {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 75%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+  width: 100%;
+}
+
+.menuSub {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.navigationButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+  width: 120px;
+  /* text-align: center; */
+  /* padding: 0.5em; */
+  border: none;
+  margin: 0 1em;
+  background-color: white;
+  border-radius: 8px;
+  font-family: 'Comic Neue';
   font-size: 16px;
+  font-weight: bold;
+
+}
+
+.navigationButton:hover{
+  color: #BE4D62;
+  background-color: #f6f8fa;
+}
+
+#searchBar {
+  /* border: 1px solid black; */
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  background-color: #f6f8fa;
+}
+
+#searchBar input {
+  width: 220px;
+  background-color: #f6f8fa;
+  border: none;
+  /* padding-right: 0.3em; */
+}
+
+.singleIcon {
+  background-color: #f6f8fa;
+  border: none;
+  margin-left: 3px;
+}
+
+.singleIcon:hover {
+  color: #f6f8fa;
+}
+
+#upArrow {
+  transform: rotate(180deg);
+}
+
+.material-icons {
+  font-size: 25px;
+}
+
+#selectedButton {
+  background-color: #f6f8fa;
+}
+
+@media screen and (max-width: 1170px) {
+  #menuExpanded {
+    justify-content: flex-end;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  #menuIcon {
+    display: none;
+  }
 }

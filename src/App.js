@@ -26,35 +26,37 @@ function App() {
   });
 
   return (
-    <Router>
-      <Navigation mainLogo={mainLogo} />
-      <Routes>
-        <Route exact path='/petshopwebsite' element={<Home />} />
-        <Route path='/petshopwebsite/Productcatalog/:productAnimal' element= {
-          <Productcatalog 
-            shoppingList={shoppingList}
-            setShoppingList={setShoppingList} 
-            checkOut={checkOut}
-            setCheckOut={setCheckOut}
-          />} 
-        />
-        <Route path='/petshopwebsite/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
-        <Route path='/petshopwebsite/Keepintouch' element={<Keepintouch />} />
-        <Route path='/petshopwebsite/Signin' element={<Signin />} />
-        <Route path='/petshopwebsite/Signup' element={<Signup />} />
-        <Route path='/petshopwebsite/Shoppingcart' element={
-          <Shoppingcart 
-            shoppingList={shoppingList}
-            setShoppingList={setShoppingList}
-            checkOut={checkOut}
-            setCheckOut={setCheckOut}
-            shippingFee= {9.50}
-            extraFee={0.08875}
-          />} 
-        />
-        <Route path='/petshopwebsite/Blog/:postID' element={<Blogpreview />} />
-      </Routes>   
-    </Router>
+    // <div>
+      <Router>
+        <Navigation mainLogo={mainLogo} />
+        <Routes>
+          <Route exact path='/petshopwebsite' element={<Home />} />
+          <Route path='/petshopwebsite/Productcatalog/:productAnimal' element= {
+            <Productcatalog 
+              shoppingList={shoppingList}
+              setShoppingList={setShoppingList} 
+              checkOut={checkOut}
+              setCheckOut={setCheckOut}
+            />} 
+          />
+          <Route path='/petshopwebsite/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
+          <Route path='/petshopwebsite/Keepintouch' element={<Keepintouch />} />
+          <Route path='/petshopwebsite/Signin' element={<Signin />} />
+          <Route path='/petshopwebsite/Signup' element={<Signup />} />
+          <Route path='/petshopwebsite/Shoppingcart' element={
+            <Shoppingcart 
+              shoppingList={shoppingList}
+              setShoppingList={setShoppingList}
+              checkOut={checkOut}
+              setCheckOut={setCheckOut}
+              shippingFee= {9.50}
+              extraFee={0.08875}
+            />} 
+          />
+          <Route path='/petshopwebsite/Blog/:postID' element={<Blogpreview />} />
+        </Routes> 
+      </Router>
+    // </div>  
   );
 }
 
