@@ -48,7 +48,6 @@ class Navigation extends React.Component{
 			aboutButton = 'selectedButton';
 			modalDrop = <Modalbackground hideContent={this.hideContent} />
 			menuDrop = <Dropdownmenu button={3} hideContent={this.hideContent} />;
-			console.log('heeeeee ', this.state.showDropdownMenu)
 		}
 
 		return (
@@ -116,8 +115,7 @@ class Navigation extends React.Component{
 						<button id='menuIcon' className='singleIcon' onClick={
 									()=> {this.setState({
 										showDropdownMenu:!this.state.showDropdownMenu
-									})
-									console.log('%%%%% ', this.state.showDropdownMenu)}}>
+									})}}>
 							<span className="material-icons">menu</span>
 						</button>
 						{modalDrop}

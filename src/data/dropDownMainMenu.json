@@ -22,5 +22,9 @@
     {
       "option": "SIGN UP",
       "ref": "/petshopwebsite/Signup"
+    },
+    {
+      "option": "SHOPPING CART",
+      "ref": "/petshopwebsite/Shoppingcart"
     }
   ]
