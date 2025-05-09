@@ -3,10 +3,10 @@ import Paragraphs from "./Paragraphs";
 import './AboutUs.css';
 
 function AboutUs(props){
-  const output = props.aboutUs.map(text => {
+  const output = props.aboutUs.map((text, key) => {
     return(
       
-      <div id="aboutUs" >
+      <div id="aboutUs" key={key} >
         <div id="ourMission" className="aboutUsSection">
           <p className="aboutUsTitle">Our Mission</p>
           <img className="aboutUsImg" src={text.ourMissionImg} alt={text.ourMissionImgAlt} />
