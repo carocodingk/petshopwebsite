@@ -4,8 +4,6 @@ import mainPost from './data/mainPost.json';
 import Modalbackground from './Modalbackground'
 import Postpreview from './Postpreview'
 
-console.log('hello ', mainPost.postImage)
-
 class Mainpost extends React.Component {
   constructor(props){
     super(props);
