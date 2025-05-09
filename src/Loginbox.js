@@ -11,7 +11,7 @@ function Loginbox(props){
         <form id="loginInnerBox">
           <div>
             <div className="loginData">
-              <label className="loginDataLabel loginFont" for="email">Email</label>
+              <label className="loginDataLabel loginFont" htmlFor="email">Email</label>
               <span>
                 {field.question}
                 <Link to={"/petshopwebsite/" + field.alternativeComponent}> 
@@ -25,7 +25,7 @@ function Loginbox(props){
           </div>
           <div>
             <div className="loginData">
-              <label className="loginDataLabel loginFont" for="password">Password</label>  
+              <label className="loginDataLabel loginFont" htmlFor="password">Password</label>  
             </div>
             <input id="password" className="wideElem inputElem loginFont" type="password" />
           </div>
