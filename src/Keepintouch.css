@@ -1,7 +1,6 @@
 #keepInTouch {
   width: 70vw;
   margin: 120px auto;
-  /* border: 1px solid gray; */
   justify-content: center;
 }
 
@@ -11,22 +10,27 @@
 
 #leftComponent {
   flex-direction: column;
-  width: 30vw;
-  margin: 0 auto;
+  align-items: center;
+  padding: 1em;
 }
 
 #rightComponent {
   border: 2px solid #f6f8fa;
   border-radius: 8px;
   padding: 1em;
- 
+}
+
+form {
+  max-width: 580px;
+  margin: auto;
 }
 
 .rightComponentField {
   padding: 5px 0;
 }
+
 .contactInput {
-  min-width: 320px; 
+  width: 100%; 
 }
 
 .contactTxt {
@@ -44,4 +48,16 @@
 
 .contactIcon {
   padding: 10px;
+}
+
+@media screen and (max-width: 650px) {
+  #keepInTouch {
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #keepInTouch {
+    flex-direction: column;
+  }
 }
