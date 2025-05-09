@@ -89,7 +89,7 @@ class Navigation extends React.Component{
 						</div>
 						<form className='menuSub' id='searchBar'>
 							<input type={"text"}></input>
-							<button className='singleIcon'><span class="material-icons">search</span></button>
+							<button className='singleIcon'><span className="material-icons">search</span></button>
 						</form>
 						<div className='menuSub'>
 							<Link to="/petshopwebsite/Signin">

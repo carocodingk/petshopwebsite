@@ -2,9 +2,9 @@ import React from "react"
 import './Paragraphs.css'
 
 function Paragraphs(props){
-  const paragraphs = props.text.map(paragraph => {
+  const paragraphs = props.text.map((paragraph, key) => {
     return(
-      <p className="paragraph">{paragraph}</p>
+      <p key={key} className="paragraph">{paragraph}</p>
     );
   });
 
