@@ -23,9 +23,9 @@ function Dropdownmenu(props){
     css_classname = "dropdown-content-alternate"
   }
 
-  const menuOutput = dropDownMenu.map(dropDownMenu => {
+  const menuOutput = dropDownMenu.map((dropDownMenu, key) => {
     return(
-      <Link to={dropDownMenu.ref}>
+      <Link to={dropDownMenu.ref} key={key}>
         {dropDownMenu.option}
       </Link>
     );
