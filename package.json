@@ -1,6 +1,6 @@
 {
-  "homepage": "http://carocodingk.github.io/petshopwebsite",
-  "name": "petshopwebsite",
+  "homepage": "http://carocodingk.github.io/web-application-retail-pet-store-react/",
+  "name": "web-application-retail-pet-store-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
