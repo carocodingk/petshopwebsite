@@ -57,17 +57,17 @@ function Shoppingcart(props){
     let subTotal = item[1].productQty * item[1].productPrice
     subTotal = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', currencyDisplay: 'narrowSymbol'}).format(subTotal);
     return(
-      <div className='shoppingFlex shoppingItem shoppingBottomBorder'>
+      <div id="product" className='shoppingFlex shoppingItem shoppingBottomBorder'>
         <img className='shoppingImg' src={require("" + item[1].productImg)} alt={item[1].productName}/>
         <div className='shoppingContent'>
           <p className='shoppingTxtMedium txtBold'>{item[1].productName}</p>
-          <div className='shoppingFlex shoppingSides1'>
+          <div className='shoppingFlex'>
             <div>
               <p>Product ID: {item[0]}</p>
               <p>{item[1].productPriceString}</p>
               <button className='removeButton' onClick={() => {removeProduct(item[0])}}>Remove</button>
             </div>
-            <div className='rightPannel1'>
+            <div>
               <p>Quantity:</p>
               <div className='shoppingFlex'>
                 <button className='shoppingButton' onClick={() => {modifyQty(false, item[0], item[1].productName, item[1].productImg, item[1].productPrice, item[1].productPriceString)}}>
@@ -156,7 +156,7 @@ function Shoppingcart(props){
     <div id='shoppingCenter'>
       <div id="shoppingCart">
         <h1 className='shoppingBottomBorder'>Shopping cart</h1>
-        <div className='shoppingFlex shoppingSides1'>
+        <div id='shoppingContainer' className='shoppingFlex'>
           <div id='shoppingCartContainer'>
             {shoppingCart}
           </div>
