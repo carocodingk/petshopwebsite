@@ -14,7 +14,7 @@ function Loginbox(props){
               <label className="loginDataLabel loginFont" htmlFor="email">Email</label>
               <span>
                 {field.question}
-                <Link to={"/petshopwebsite/" + field.alternativeComponent}> 
+                <Link to={"/web-application-retail-pet-store-react/" + field.alternativeComponent}> 
                   <span id="loginAlternative" className="loginDataLabel">
                     {field.alternative}
                   </span>

@@ -5,7 +5,7 @@ import './Blogwall.css';
 function Blogwall(props){
   const output = props.posts.map((post, key) => {
     return (
-      <Link key={key} to={`/petshopwebsite/Blog/${post.postID}`}>
+      <Link key={key} to={`/web-application-retail-pet-store-react/Blog/${post.postID}`}>
         <div className='blogWallPost' >
           <img className="blogWallImage maxWidth" src={post.postImage} alt={post.postImageAlt} />
           <p id='blogWallTitle' className='blogWallData maxWidth'>{post.postTitle}</p>

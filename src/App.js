@@ -30,8 +30,8 @@ function App() {
       <Router>
         <Navigation mainLogo={mainLogo} />
         <Routes>
-          <Route exact path='/petshopwebsite' element={<Home />} />
-          <Route path='/petshopwebsite/Productcatalog/:productAnimal' element= {
+          <Route exact path='/web-application-retail-pet-store-react' element={<Home />} />
+          <Route path='/web-application-retail-pet-store-react/Productcatalog/:productAnimal' element= {
             <Productcatalog 
               shoppingList={shoppingList}
               setShoppingList={setShoppingList} 
@@ -39,11 +39,11 @@ function App() {
               setCheckOut={setCheckOut}
             />} 
           />
-          <Route path='/petshopwebsite/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
-          <Route path='/petshopwebsite/Keepintouch' element={<Keepintouch />} />
-          <Route path='/petshopwebsite/Signin' element={<Signin />} />
-          <Route path='/petshopwebsite/Signup' element={<Signup />} />
-          <Route path='/petshopwebsite/Shoppingcart' element={
+          <Route path='/web-application-retail-pet-store-react/AboutUs' element={<AboutUs aboutUs={aboutUs} />} />
+          <Route path='/web-application-retail-pet-store-react/Keepintouch' element={<Keepintouch />} />
+          <Route path='/web-application-retail-pet-store-react/Signin' element={<Signin />} />
+          <Route path='/web-application-retail-pet-store-react/Signup' element={<Signup />} />
+          <Route path='/web-application-retail-pet-store-react/Shoppingcart' element={
             <Shoppingcart 
               shoppingList={shoppingList}
               setShoppingList={setShoppingList}
@@ -53,7 +53,7 @@ function App() {
               extraFee={0.08875}
             />} 
           />
-          <Route path='/petshopwebsite/Blog/:postID' element={<Blogpreview />} />
+          <Route path='/web-application-retail-pet-store-react/Blog/:postID' element={<Blogpreview />} />
         </Routes> 
       </Router>
     // </div>  

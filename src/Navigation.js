@@ -52,7 +52,7 @@ class Navigation extends React.Component{
 
 		return (
 			<div id='navigation'>
-				<Link to="/petshopwebsite">
+				<Link to="/web-application-retail-pet-store-react">
 					<img src={mainLogo} alt={"company logo"} />
 				</Link>
 				<div id='menuExpanded'>
@@ -91,7 +91,7 @@ class Navigation extends React.Component{
 							<button className='singleIcon'><span className="material-icons">search</span></button>
 						</form>
 						<div className='menuSub'>
-							<Link to="/petshopwebsite/Signin">
+							<Link to="/web-application-retail-pet-store-react/Signin">
 								<button  className='navigationButton' onClick={
 									()=> this.setState({
 										showMenuAbout:false, 
@@ -100,7 +100,7 @@ class Navigation extends React.Component{
 									<span className="material-icons">pets</span> &nbsp; SIGN IN 
 								</button>
 							</Link>
-							<Link to="/petshopwebsite/Shoppingcart">
+							<Link to="/web-application-retail-pet-store-react/Shoppingcart">
 								<button className='navigationButton'onClick={
 									()=> this.setState({
 										showMenuAbout:false, 

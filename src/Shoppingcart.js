@@ -46,7 +46,7 @@ function Shoppingcart(props){
         <p className='subtotalTxtLarge'>Order total</p>
         <p className='subtotalTxtLarge'>{total}</p>
       </div>
-      <Link to="/petshopwebsite/Signin">
+      <Link to="/web-application-retail-pet-store-react/Signin">
       <button id='checkoutButton' className='shoppingButton'>CHECKOUT</button>
       </Link>
     </div>
