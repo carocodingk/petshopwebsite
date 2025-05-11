@@ -29,7 +29,7 @@ function Loginbox(props){
             </div>
             <input id="password" className="wideElem inputElem loginFont" type="password" />
           </div>
-          <button id="loginButton" className="wideElem loginDataLabel loginFont" type="submit">{field.buttonName}</button>
+          <button id="loginButton" className="wideElem loginDataLabel loginFont" onClick={()=>console.log('submitted form')}>{field.buttonName}</button>
         </form>
       </div>
     );
