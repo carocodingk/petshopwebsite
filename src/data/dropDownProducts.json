@@ -1,27 +1,27 @@
 [
   {
     "option": "Dog Supplies",
-    "ref": "/petshopwebsite/Productcatalog/Dogs",
+    "ref": "/web-application-retail-pet-store-react/Productcatalog/Dogs",
     "type": "Dogs"
   },
   {
     "option": "Cat Supplies",
-    "ref": "/petshopwebsite/Productcatalog/Cats",
+    "ref": "/web-application-retail-pet-store-react/Productcatalog/Cats",
     "type": "Cats"
   },
   {
     "option": "Bird Supplies",
-    "ref": "/petshopwebsite/Productcatalog/Birds",
+    "ref": "/web-application-retail-pet-store-react/Productcatalog/Birds",
     "type": "Birds"
   },
   {
     "option": "Fish Supplies",
-    "ref": "/petshopwebsite/Productcatalog/Fish",
+    "ref": "/web-application-retail-pet-store-react/Productcatalog/Fish",
     "type": "Fish"
   },
   {
     "option": "View All",
-    "ref": "/petshopwebsite/Productcatalog/All",
+    "ref": "/web-application-retail-pet-store-react/Productcatalog/All",
     "type": "All"
   }
 ]

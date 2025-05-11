@@ -5,26 +5,26 @@
     },
     {
       "option": "PRODUCTS",
-      "ref": "/petshopwebsite/Productcatalog/All"
+      "ref": "/web-application-retail-pet-store-react/Productcatalog/All"
     },
     {
         "option": "ABOUT US",
-        "ref": "/petshopwebsite/AboutUs/#ourMission"
+        "ref": "/web-application-retail-pet-store-react/AboutUs/#ourMission"
     },
     {
       "option": "KEEP IN TOUCH",
-      "ref": "/petshopwebsite/Keepintouch"
+      "ref": "/web-application-retail-pet-store-react/Keepintouch"
     },
     {
       "option": "SIGN IN",
-      "ref": "/petshopwebsite/Signin"
+      "ref": "/web-application-retail-pet-store-react/Signin"
     },
     {
       "option": "SIGN UP",
-      "ref": "/petshopwebsite/Signup"
+      "ref": "/web-application-retail-pet-store-react/Signup"
     },
     {
       "option": "SHOPPING CART",
-      "ref": "/petshopwebsite/Shoppingcart"
+      "ref": "/web-application-retail-pet-store-react/Shoppingcart"
     }
   ]
