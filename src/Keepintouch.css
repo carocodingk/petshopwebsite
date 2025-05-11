@@ -38,7 +38,11 @@ form {
 }
 
 #contactButton {
-  border: none;
+  /* border: none; */
+  border: 1px solid black;
+  max-width: 100px;
+  text-align: center;
+  font-weight: bold;
   padding: 5px;
 }
 

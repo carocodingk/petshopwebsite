@@ -41,7 +41,10 @@ function Keepintouch(props){
             </div>
             <textarea className="contactInput contactTxt" name="comment" rows="20" cols="70"></textarea>
           </div>
-          <button className="contactTxt" id="contactButton" onClick={()=>console.log('submitted form')}>Submit</button>
+          <div id="contactButton" onClick={()=>console.log('submitted form')}>
+            SUBMIT
+            {/* <button className="contactTxt" id="contactButton" onClick={()=>console.log('submitted form')}>Submit</button> */}
+          </div>
         </form> 
       </div>
     </div>
