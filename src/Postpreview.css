@@ -10,7 +10,7 @@
   z-index: 10;
   display: flex;
 
-  max-width: 80vw;
+  width: 80vw;
   max-height: 85vh;
 
   background-color: white;
@@ -21,7 +21,6 @@
 #postTitle {
   margin-top: 0.3em;
   margin-bottom: 0.08em;
-
   font-size: 3em;
   color: #5c4e4e;
   text-align: center;  
@@ -61,4 +60,18 @@
   background-color: white; 
 
   font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  #postContent {
+    min-width: 60vw;
+  }
+
+  #postTitle {
+    font-size: 2em;
+  }
+
+  .postData {
+  padding-right: 1em;
+}
 }
