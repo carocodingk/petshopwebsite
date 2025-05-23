@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/web-application-retail-pet-store-react/static/css/main.e0683f71.css",
+    "main.js": "/web-application-retail-pet-store-react/static/js/main.302e91a5.js",
+    "static/js/453.f24419e2.chunk.js": "/web-application-retail-pet-store-react/static/js/453.f24419e2.chunk.js",
+    "static/media/fishVitamin.jpg": "/web-application-retail-pet-store-react/static/media/fishVitamin.a94fb3953fb5d744fa01.jpg",
+    "static/media/dogVitamin.jpg": "/web-application-retail-pet-store-react/static/media/dogVitamin.db3117b3041f663964ff.jpg",
+    "static/media/catVitamin.jpg": "/web-application-retail-pet-store-react/static/media/catVitamin.cf24d939974a6789e329.jpg",
+    "static/media/birdVitamin.jpg": "/web-application-retail-pet-store-react/static/media/birdVitamin.9bf90334dfd405a0af94.jpg",
+    "static/media/catBox.jpg": "/web-application-retail-pet-store-react/static/media/catBox.a9f108f0f359e5300927.jpg",
+    "static/media/dogBed.jpg": "/web-application-retail-pet-store-react/static/media/dogBed.6e284e134036d1e06700.jpg",
+    "static/media/fishShirt.jpg": "/web-application-retail-pet-store-react/static/media/fishShirt.9e024951b52f04b9ae5b.jpg",
+    "static/media/dogShirt.jpg": "/web-application-retail-pet-store-react/static/media/dogShirt.609796391d4f2f84652e.jpg",
+    "static/media/catShirt.jpg": "/web-application-retail-pet-store-react/static/media/catShirt.9b956964ce389805828a.jpg",
+    "static/media/dogBox.jpg": "/web-application-retail-pet-store-react/static/media/dogBox.b2eedbfac3f7f391698e.jpg",
+    "static/media/birdShirt.jpg": "/web-application-retail-pet-store-react/static/media/birdShirt.18ab2ab6a5397510820c.jpg",
+    "static/media/dogFood.jpg": "/web-application-retail-pet-store-react/static/media/dogFood.28933f17d2a0aa5a9529.jpg",
+    "static/media/birdFood.jpg": "/web-application-retail-pet-store-react/static/media/birdFood.471c2c577087b6b82330.jpg",
+    "static/media/catFood.jpg": "/web-application-retail-pet-store-react/static/media/catFood.829c3649502116fb980d.jpg",
+    "static/media/fishFood.jpg": "/web-application-retail-pet-store-react/static/media/fishFood.23d6ce99e34fafa8c419.jpg",
+    "static/media/birdBox.jpg": "/web-application-retail-pet-store-react/static/media/birdBox.3cbec3f50588bae4905f.jpg",
+    "static/media/fishBox.jpg": "/web-application-retail-pet-store-react/static/media/fishBox.a74e37c7c2939801da1e.jpg",
+    "static/media/catBed.jpg": "/web-application-retail-pet-store-react/static/media/catBed.4543a0ad37e6231aba2b.jpg",
+    "static/media/chuchoFelizLogo.png": "/web-application-retail-pet-store-react/static/media/chuchoFelizLogo.b33807c4b243ea4a1805.png",
+    "static/media/index.cjs": "/web-application-retail-pet-store-react/static/media/index.6cc1b11a234f6e065e45.cjs",
+    "index.html": "/web-application-retail-pet-store-react/index.html",
+    "static/media/minus_white.svg": "/web-application-retail-pet-store-react/static/media/minus_white.1455be32cc43105bb5e0b4341b82f67e.svg",
+    "static/media/add_white.svg": "/web-application-retail-pet-store-react/static/media/add_white.fc863d6057e9f7413088dca621fb0d4d.svg",
+    "main.e0683f71.css.map": "/web-application-retail-pet-store-react/static/css/main.e0683f71.css.map",
+    "main.302e91a5.js.map": "/web-application-retail-pet-store-react/static/js/main.302e91a5.js.map",
+    "453.f24419e2.chunk.js.map": "/web-application-retail-pet-store-react/static/js/453.f24419e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0683f71.css",
+    "static/js/main.302e91a5.js"
+  ]
+}
